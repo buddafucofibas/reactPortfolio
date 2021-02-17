@@ -1,5 +1,5 @@
 const projects = () => {
-  return <div className='outline'>hey from projects component</div>
+  return <div className='page'>hey from projects component</div>
 }
 
 export default projects

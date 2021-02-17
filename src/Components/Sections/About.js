@@ -1,5 +1,5 @@
 const about = () => {
-  return <div className='outline'>hey from about component</div>
+  return <div className='page'>hey from about component</div>
 }
 
 export default about

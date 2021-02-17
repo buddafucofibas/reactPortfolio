@@ -1,6 +1,33 @@
-.outline {
+.page {
   width: 100%;
-  border: 1px dashed white;
   flex: 0 0 auto;
   scroll-snap-align: center;
+}
+
+.slideLeft {
+  animation: 2s ease-out slideInFromLeft;
+}
+
+.slideRight {
+  animation: 2s ease-out slideInFromRight;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(25%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
