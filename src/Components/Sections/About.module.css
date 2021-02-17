@@ -1,0 +1,38 @@
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image {
+  position: relative;
+  height: 350px;
+  width: 500px;
+  border-radius: 5px;
+  background: no-repeat center / cover url('../../Assets/Images/me.jpg');
+  left: -100px;
+  top: 20px;
+}
+
+.image:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #333;
+  opacity: 0.55;
+  border-radius: 5px;
+}
+
+.lead {
+  /* font-size: 1.5em; */
+  line-height: 1.5em;
+  letter-spacing: 5px;
+  position: relative;
+  max-width: 95%;
+  width: 50%;
+  top: -20px;
+  left: 100px;
+  text-align: justify;
+}
