@@ -1,0 +1,6 @@
+.outline {
+  width: 100%;
+  border: 1px dashed white;
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+}

@@ -1,0 +1,19 @@
+.pageWrapper {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+}
+
+.navDisplayPane {
+  flex: 40%;
+  border: 1px solid white;
+}
+
+.contentDisplayPane {
+  flex: 60%;
+  border: 1px solid white;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}

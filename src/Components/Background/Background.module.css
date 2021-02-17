@@ -1,0 +1,17 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: no-repeat center / cover
+    url(https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3450&q=80);
+  position: absolute;
+  z-index: -2;
+}
+
+.background:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #2b2d42;
+  opacity: 0.5;
+}
