@@ -1,5 +1,6 @@
 import { concat } from '../../Utility'
 import styles from './Home.module.css'
+import './Sections.css'
 
 const home = () => {
   return (

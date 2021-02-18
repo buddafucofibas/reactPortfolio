@@ -10,11 +10,11 @@ a {
 }
 
 .slideLeft {
-  animation: 2s ease-out slideInFromLeft;
+  animation: 1s ease-out slideInFromLeft;
 }
 
 .slideRight {
-  animation: 2s ease-out slideInFromRight;
+  animation: 1s ease-out slideInFromRight;
 }
 
 @keyframes slideInFromLeft {
