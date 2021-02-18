@@ -1,0 +1,58 @@
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.displayPane {
+  max-width: 95%;
+  width: 650px;
+  max-height: 50%;
+  height: 380px;
+  border: 5px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+.navButton {
+  position: absolute;
+  z-index: 2;
+  color: black;
+  font-size: 2.5rem;
+  background: gray;
+  border-radius: 100%;
+  padding: 0.125em 0.25em;
+  border: none;
+  top: 40%;
+  opacity: 0.25;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.navButton:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.right {
+  right: 10px;
+}
+
+.left {
+  left: 10px;
+}
+
+.displayImage {
+  width: 100%;
+}
+
+.displayImage img {
+  width: 100%;
+  height: auto;
+}
+.displayCaption {
+  font-size: 1.5em;
+  letter-spacing: 5px;
+  margin-top: 15px;
+  text-transform: lowercase;
+}
