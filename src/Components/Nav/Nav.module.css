@@ -1,0 +1,18 @@
+.navWrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink {
+  font-size: 3em;
+  margin-bottom: 20px;
+  transition: color 0.5s ease-in-out;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.navLink:hover {
+  color: #f4e76e;
+}

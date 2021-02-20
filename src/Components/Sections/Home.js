@@ -4,10 +4,12 @@ import './Sections.css'
 
 const home = () => {
   return (
-    <div className={concat(styles.flex_center, 'page')}>
+    <div id='home' className={concat(styles.flex_center, 'page')}>
       <div className={concat(styles.image, 'slideRight')}></div>
       <div className={concat(styles.lead, 'slideLeft')}>
-        <p>i am dorian</p>
+        <p>
+          my name is <span className={concat(styles.name, 'colorChange')}>dorian</span>
+        </p>
       </div>
     </div>
   )

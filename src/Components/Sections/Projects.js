@@ -67,7 +67,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className={concat(styles.flex_center, 'page')}>
+      <div id='projects' className={concat(styles.flex_center, 'page')}>
         <div className={styles.displayPane}>
           <button className={concat(styles.navButton, styles.right)} onClick={this.handleNext}>
             <i className='fas fa-arrow-right'></i>

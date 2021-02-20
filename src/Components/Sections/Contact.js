@@ -5,7 +5,7 @@ import styles from './Contact.module.css'
 
 const contact = () => {
   return (
-    <div className={'page'}>
+    <div id='contact' className={'page'}>
       <div className={concat(styles.contactWrapper)}>
         <div className={concat(styles.navRow, styles.center)}>
           <a href='https://twitter.com/PharmDTechie' target='_blank'>

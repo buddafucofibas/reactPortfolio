@@ -3,7 +3,7 @@ import styles from './About.module.css'
 
 const about = () => {
   return (
-    <div className={concat(styles.flex_center, 'page')}>
+    <div id='about' className={concat(styles.flex_center, 'page')}>
       <div className={styles.image}></div>
       <div className={styles.lead}>
         <p>
