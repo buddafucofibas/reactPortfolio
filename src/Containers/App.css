@@ -31,11 +31,11 @@ li {
 
 @keyframes rando1 {
   0% {
-    transform: translateY(-100px) translateX(-250px) rotateZ(45deg);
+    transform: translateX(-250px);
     opacity: 0;
   }
   100% {
-    transform: translateY(0px) translateX(0px) rotateZ(0);
+    transform: translateX(0px);
     opacity: 1;
   }
 }
