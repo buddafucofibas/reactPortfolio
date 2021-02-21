@@ -10,16 +10,16 @@ class Nav extends Component {
     page.scrollIntoView({ behavior: 'smooth' })
     let links = document.querySelectorAll('li')
     for (let link of links) {
-      link.classList.remove(styles.active)
+      link.classList.remove('active')
     }
-    event.target.parentNode.classList.add(styles.active)
+    event.target.parentNode.classList.add('active')
   }
 
   render() {
     return (
       <div className={styles.navWrapper}>
         <ul className={styles.nav}>
-          <li className={concat(styles.navLink, styles.active, 'rando1')}>
+          <li className={concat(styles.navLink, 'active', 'rando1')}>
             <a id='#home' onClick={this.handleNav}>
               home
             </a>
