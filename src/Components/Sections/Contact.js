@@ -16,7 +16,7 @@ const contact = () => {
           <a href='https://github.com/buddafucofibas' target='_blank'>
             <i className='fab fa-github-alt'></i>
           </a>
-          <a href='https://www.linkedin.com/in/dorian-edwards-442a49181/' target='_blank'>
+          <a href='https://www.linkedin.com/in/dorian-edwards-503136211/' target='_blank'>
             <i className='fab fa-linkedin-in'></i>
           </a>
         </div>

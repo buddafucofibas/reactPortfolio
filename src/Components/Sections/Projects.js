@@ -1,39 +1,40 @@
 import { concat } from '../../Utility'
 import React, { Component } from 'react'
 import styles from './Projects.module.css'
-import bookFinder from '../../Assets/Images/bookfinder.png'
 import devDiaries from '../../Assets/Images/devDiaries.png'
 import portfolio from '../../Assets/Images/portfolio.png'
 import weatherApp from '../../Assets/Images/weatherapp.png'
 import tandemTrivia from '../../Assets/Images/tandemTrivia.png'
+import blog from '../../Assets/Images/blog.png'
+import RADocs from '../../Assets/Images/RADocs.png'
 
 class Projects extends Component {
   state = {
     data: [
       {
-        image: bookFinder,
-        title: 'Book Finder',
-        link: 'https://github.com/buddafucofibas/bookfinder',
+        image: blog,
+        title: 'NextJS Blog',
+        link: 'https://pharmdtechie.net/',
       },
       {
         image: devDiaries,
         title: 'DevDiaries',
-        link: 'https://github.com/buddafucofibas/devDiaries',
+        link: 'https://devdiaries.herokuapp.com/',
       },
       {
         image: portfolio,
         title: 'Portfolio 1.0',
-        link: 'https://github.com/buddafucofibas/portfolio1.0',
+        link: 'https://buddafucofibas.github.io/portfolio1.0/',
       },
       {
         image: weatherApp,
         title: 'Weather App',
-        link: 'https://github.com/buddafucofibas/weatherapp',
+        link: 'https://buddafucofibas.github.io/weatherapp/',
       },
       {
-        image: tandemTrivia,
-        title: 'Tandem Trivia',
-        link: 'https://github.com/buddafucofibas/triviaJS',
+        image: RADocs,
+        title: 'Open Source Notes',
+        link: 'https://buddafucofibas.github.io/RA_OpenSource/',
       },
     ],
     view: 0,
